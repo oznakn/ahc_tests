@@ -5,8 +5,8 @@ from enum import Enum
 from pickle import FALSE
 sys.path.insert(0, os.getcwd())
 
-from Ahc import ComponentModel, Event, ConnectorTypes, Topology, EventTypes, GenericMessage, GenericMessageHeader, FramerObjects
-from Ahc import ComponentRegistry
+from ahc.Ahc import ComponentModel, Event, ConnectorTypes, Topology, EventTypes, GenericMessage, GenericMessageHeader, FramerObjects
+from ahc.Ahc import ComponentRegistry
 from PhysicalLayers.UsrpB210OfdmFlexFramePhy import  UsrpB210OfdmFlexFramePhy
 from MAC.CSMA import MacCsmaPPersistent,MacCsmaPPersistentConfigurationParameters
 
