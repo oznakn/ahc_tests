@@ -1,0 +1,7 @@
+image: cengwins/ahc-uhd-image
+command: /bin/sh -c "
+  python3 main.py"
+
+env:
+  PYTHONUNBUFFERED: "1"
+  PYTHONDONTWRITEBYTECODE: "1"
