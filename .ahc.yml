@@ -1,6 +1,6 @@
 image: cengwins/ahc-uhd-image
 command: /bin/sh -c "
-  pip install adhocomputing &&
+  pip install adhocomputing==0.0.3 &&
   python3 main.py"
 
 env:
