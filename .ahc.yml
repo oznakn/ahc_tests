@@ -1,5 +1,7 @@
 image: cengwins/ahc-uhd-image
-command: "python3 main.py"
+command: command: /bin/sh -c "
+pip install adhocomputing &&
+python3 main.py"
 
 env:
   PYTHONUNBUFFERED: "1"
