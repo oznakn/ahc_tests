@@ -11,8 +11,8 @@ from ahc.PhysicalLayers.UsrpB210OfdmFlexFramePhy import  UsrpB210OfdmFlexFramePh
 from ahc.MAC.CSMA import MacCsmaPPersistent,MacCsmaPPersistentConfigurationParameters
 
 registry = ComponentRegistry()
-from Channels.Channels import FIFOBroadcastPerfectChannel
-from EttusUsrp.UhdUtils import AhcUhdUtils
+from ahc.Channels.Channels import FIFOBroadcastPerfectChannel
+from ahc.EttusUsrp.UhdUtils import AhcUhdUtils
 
 framers = FramerObjects()
 
