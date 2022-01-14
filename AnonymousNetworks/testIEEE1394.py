@@ -10,9 +10,9 @@ from time import sleep
 import matplotlib.pyplot as plt
 import networkx as nx
 from ahc.Ahc import Topology
-from Channels.Channels import P2PFIFOPerfectChannel
+from ahc.Channels.Channels import P2PFIFOPerfectChannel
 
-from AnonymousNetworks.IEEE1394 import FireWireNode
+from ahc.AnonymousNetworks.IEEE1394 import FireWireNode
 
 ACTIVE_NODE_COLOUR = "#98971a"
 PASSIVE_NODE_COLOUR = "#7c6f64"
