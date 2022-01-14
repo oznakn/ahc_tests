@@ -3,10 +3,10 @@ import os
 sys.path.append('/usr/local/lib')
 sys.path.insert(0, os.getcwd())
 import time
-from EttusUsrp.LiquidDspUtils import *
+from ahc.EttusUsrp.LiquidDspUtils import *
 from threading import Thread
 #from EttusUsrp.LiquidDspOfdmFlexFrameHandler import LiquidDspOfdmFlexFrameHandler
-from PhysicalLayers.UsrpB210OfdmFlexFramePhy import UsrpB210OfdmFlexFramePhy
+from ahc.PhysicalLayers.UsrpB210OfdmFlexFramePhy import UsrpB210OfdmFlexFramePhy
 # On MacOS, export DYLD_LIBRARY_PATH=/usr/local/lib for sure!
 from ctypes import *
 
