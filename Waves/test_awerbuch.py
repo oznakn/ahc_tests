@@ -17,7 +17,7 @@ from ahc.Ahc import ComponentModel, Event, ConnectorTypes, ComponentRegistry
 from ahc.Ahc import EventTypes
 from ahc.Channels.Channels import P2PFIFOPerfectChannel
 from ahc.LinkLayers.GenericLinkLayer import LinkLayer
-from ahc.NetworkLayers.AllSeeingEyeNetworkLayer import AllSeingEyeNetworkLayer
+from ahc.Routing.AllSeeingEyeNetworkLayer import AllSeingEyeNetworkLayer
 from ahc.Waves.AwerbuchDFS import WaveAwerbuchComponent
 
 

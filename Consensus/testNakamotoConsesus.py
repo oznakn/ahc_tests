@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 from ahc.Channels.Channels import Channel
 from ahc.Ahc import ComponentRegistry, Topology
-from ahc.Consensus.NakamotoConsensus import transaction_generator
+from ahc.Consensus.NakamotoConsensus import transaction_generator, NkComponent
 
 # TODO: Check if this is a valid implementation
 PATH_OF_DATA = "data"
