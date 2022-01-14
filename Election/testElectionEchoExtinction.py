@@ -8,7 +8,7 @@ from ahc.Ahc import ComponentRegistry
 from ahc.Ahc import EventTypes
 from ahc.Channels.Channels import P2PFIFOPerfectChannel
 from ahc.LinkLayers.GenericLinkLayer import LinkLayer
-from ahc.NetworkLayers.AllSeeingEyeNetworkLayer import AllSeingEyeNetworkLayer
+from ahc.Routing.AllSeeingEyeNetworkLayer import AllSeingEyeNetworkLayer
 from ahc.Election.EchoExtinction import ElectionEchoExtinctionComponent
 
 registry = ComponentRegistry()
