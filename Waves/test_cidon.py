@@ -15,10 +15,10 @@ import networkx as nx
 from ahc.Ahc import Topology
 from ahc.Ahc import ComponentModel, Event, ConnectorTypes, ComponentRegistry
 from ahc.Ahc import EventTypes
-from Channels.Channels import P2PFIFOPerfectChannel
-from LinkLayers.GenericLinkLayer import LinkLayer
-from NetworkLayers.AllSeeingEyeNetworkLayer import AllSeingEyeNetworkLayer
-from Waves.CidonDFS import ApplicationLayerComponent_Cidon
+from ahc.Channels.Channels import P2PFIFOPerfectChannel
+from ahc.LinkLayers.GenericLinkLayer import LinkLayer
+from ahc.NetworkLayers.AllSeeingEyeNetworkLayer import AllSeingEyeNetworkLayer
+from ahc.Waves.CidonDFS import ApplicationLayerComponent_Cidon
 
 
 number_mesg = 0

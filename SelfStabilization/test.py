@@ -5,8 +5,8 @@ sys.path.insert(0, os.getcwd())
 
 import matplotlib.pyplot as plt
 
-from SelfStabilization.AroraGouda import *
-from SelfStabilization.AfekKuttenYang import *
+from ahc.SelfStabilization.AroraGouda import *
+from ahc.SelfStabilization.AfekKuttenYang import *
 
 
 def main():

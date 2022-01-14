@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 import networkx as nx
 
-from MutualExclusion.Bakery import *
+from ahc.MutualExclusion.Bakery import *
 from ahc.Ahc import ComponentModel, Event, EventTypes, ConnectorTypes, Topology
-from Channels.Channels import FIFOBroadcastPerfectChannel
+from ahc.Channels.Channels import FIFOBroadcastPerfectChannel
 
 class AdHocNode(ComponentModel):
 

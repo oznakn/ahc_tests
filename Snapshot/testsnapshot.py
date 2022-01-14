@@ -3,9 +3,9 @@ import os
 import sys
 
 sys.path.insert(0, os.getcwd())
-from Channels.Channels import Channel
-from Snapshot.Snapshot import ChandyLamportComponentModel, LaiYangComponentModel
-from Snapshot.Snapshot import SnapshotEventTypes
+from ahc.Channels.Channels import Channel
+from ahc.Snapshot.Snapshot import ChandyLamportComponentModel, LaiYangComponentModel
+from ahc.Snapshot.Snapshot import SnapshotEventTypes
 from ahc.Ahc import Event, Topology
 import matplotlib.pyplot as plt
 import networkx as nx

@@ -10,9 +10,9 @@ from time import sleep
 from itertools import combinations, groupby
 from math import cos, atan2
 
-from MutualExclusion.Raymond import MutualExclusionRaymondComponent
+from ahc.MutualExclusion.Raymond import MutualExclusionRaymondComponent
 from ahc.Ahc import Topology
-from Channels.Channels import P2PFIFOPerfectChannel
+from ahc.Channels.Channels import P2PFIFOPerfectChannel
 
 
 SAVED_FILE_INDEX = 0

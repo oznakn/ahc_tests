@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 sys.path.insert(0, os.getcwd())
 
-from Channels.Channels import Channel
+from ahc.Channels.Channels import Channel
 from ahc.Waves.TreeAlgorithm import *
 
 def main():

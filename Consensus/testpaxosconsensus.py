@@ -9,8 +9,8 @@ import networkx as nx
 
 from ahc.Ahc import Topology
 from ahc.Ahc import ComponentRegistry
-from Channels.Channels import BasicLossyChannel
-from Consensus.Paxos.paxos_component import PaxosConsensusComponentModel, Resolution
+from ahc.Channels.Channels import BasicLossyChannel
+from ahc.Consensus.Paxos.paxos_component import PaxosConsensusComponentModel, Resolution
 from itertools import combinations
 import logging
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)

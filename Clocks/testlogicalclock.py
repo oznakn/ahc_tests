@@ -7,11 +7,11 @@ import networkx as nx
 
 from ahc.Ahc import ComponentModel, Event, ConnectorTypes, Topology
 from ahc.Ahc import EventTypes
-from Channels.Channels import P2PFIFOPerfectChannel
-from LinkLayers.GenericLinkLayer import LinkLayer
-from NetworkLayers.AllSeeingEyeNetworkLayer import AllSeingEyeNetworkLayer
+from ahc.Channels.Channels import P2PFIFOPerfectChannel
+from ahc.LinkLayers.GenericLinkLayer import LinkLayer
+from ahc.NetworkLayers.AllSeeingEyeNetworkLayer import AllSeingEyeNetworkLayer
 
-from Clocks.LogicalClocks import VectorClock
+from ahc.Clocks.LogicalClocks import VectorClock
 
 
 class ApplicationLayerComponent(ComponentModel):

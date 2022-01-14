@@ -7,8 +7,8 @@ sys.path.insert(0, os.getcwd())
 
 from ahc.Ahc import ComponentModel, Event, ConnectorTypes, Topology, EventTypes, GenericMessage, GenericMessageHeader, FramerObjects
 from ahc.Ahc import ComponentRegistry
-from PhysicalLayers.UsrpB210OfdmFlexFramePhy import  UsrpB210OfdmFlexFramePhy
-from MAC.CSMA import MacCsmaPPersistent,MacCsmaPPersistentConfigurationParameters
+from ahc.PhysicalLayers.UsrpB210OfdmFlexFramePhy import  UsrpB210OfdmFlexFramePhy
+from ahc.MAC.CSMA import MacCsmaPPersistent,MacCsmaPPersistentConfigurationParameters
 
 registry = ComponentRegistry()
 from Channels.Channels import FIFOBroadcastPerfectChannel
@@ -106,11 +106,11 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv,"hi:",["id="])
     except getopt.GetoptError:
-        print ("testXXX.py -i <nodeinstancenumber>")
+        print ("testUsrpIndividually.py -i <nodeinstancenumber>")
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print ("testXXX.py -i <nodeinstancenumber>")
+            print ("testUsrpIndividually.py -i <nodeinstancenumber>")
             sys.exit()
         elif opt in ("-i", "--ifile"):
             id = arg

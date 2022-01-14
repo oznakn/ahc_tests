@@ -7,8 +7,8 @@ import time
 
 import matplotlib.pyplot as plt
 
-from SelfStabilization.AroraGouda import *
-from SelfStabilization.AfekKuttenYang import *
+from ahc.SelfStabilization.AroraGouda import *
+from ahc.SelfStabilization.AfekKuttenYang import *
 
 def eprint(*args, **kwargs):
     print(*args, file=sys.stderr, **kwargs)

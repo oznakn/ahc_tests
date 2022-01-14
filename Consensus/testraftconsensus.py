@@ -7,8 +7,8 @@ import networkx as nx
 
 from ahc.Ahc import Topology
 from ahc.Ahc import ComponentRegistry
-from Channels.Channels import BasicLossyChannel
-from Consensus.Raft.raft_component import RaftConsensusComponent
+from ahc.Channels.Channels import BasicLossyChannel
+from ahc.Consensus.Raft.raft_component import RaftConsensusComponent
 from itertools import combinations
 
 registry = ComponentRegistry()

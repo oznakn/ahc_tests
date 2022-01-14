@@ -7,8 +7,8 @@ sys.path.insert(0, os.getcwd())
 
 from ahc.Ahc import ComponentModel, Event, ConnectorTypes, Topology, EventTypes, GenericMessage, GenericMessageHeader, FramerObjects
 from ahc.Ahc import ComponentRegistry
-from PhysicalLayers.UsrpB210OfdmFlexFramePhy import  UsrpB210OfdmFlexFramePhy
-from MAC.CSMA import MacCsmaPPersistent,MacCsmaPPersistentConfigurationParameters
+from ahc.PhysicalLayers.UsrpB210OfdmFlexFramePhy import  UsrpB210OfdmFlexFramePhy
+from ahc.MAC.CSMA import MacCsmaPPersistent,MacCsmaPPersistentConfigurationParameters
 
 registry = ComponentRegistry()
 from Channels.Channels import FIFOBroadcastPerfectChannel
