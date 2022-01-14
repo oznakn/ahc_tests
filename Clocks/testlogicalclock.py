@@ -9,7 +9,7 @@ from ahc.Ahc import ComponentModel, Event, ConnectorTypes, Topology
 from ahc.Ahc import EventTypes
 from ahc.Channels.Channels import P2PFIFOPerfectChannel
 from ahc.LinkLayers.GenericLinkLayer import LinkLayer
-from ahc.NetworkLayers.AllSeeingEyeNetworkLayer import AllSeingEyeNetworkLayer
+from ahc.Routing.AllSeeingEyeNetworkLayer import AllSeingEyeNetworkLayer
 
 from ahc.Clocks.LogicalClocks import VectorClock
 
