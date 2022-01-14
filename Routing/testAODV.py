@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 from ahc.Ahc import ComponentModel, Event, ConnectorTypes, Topology
 from ahc.Ahc import ComponentRegistry
 from ahc.Ahc import GenericMessagePayload, GenericMessageHeader, GenericMessage, EventTypes
-from Channels.Channels import P2PFIFOPerfectChannel
+from ahc.Channels.Channels import P2PFIFOPerfectChannel
 #from LinkLayers.GenericLinkLayer import LinkLayer
 #from NetworkLayers.AllSeeingEyeNetworkLayer import AllSeingEyeNetworkLayer
 from ahc.Routing.AODV.AODVLinkLayerComponent import AODVLinkLayerComponent
