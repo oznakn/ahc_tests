@@ -9,9 +9,9 @@ import matplotlib.pyplot as plt
 
 from ahc.Ahc import ComponentModel, Event, ConnectorTypes, Topology, EventTypes
 from ahc.Ahc import ComponentRegistry
-from Broadcasting.Broadcasting import ControlledFlooding
-from Channels.Channels import P2PFIFOFairLossChannel
-from LinkLayers.GenericLinkLayer import LinkLayer
+from ahc.Broadcasting.Broadcasting import ControlledFlooding
+from ahc.Channels.Channels import P2PFIFOFairLossChannel
+from ahc.LinkLayers.GenericLinkLayer import LinkLayer
 
 registry = ComponentRegistry()
 
