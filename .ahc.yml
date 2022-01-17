@@ -5,8 +5,7 @@ command: /bin/sh -c "
   python3 General/test.py &&
   python3 General/testnx.py &&
   python3 General/testchannels.py &&
-  python3 main.py &&
-"
+  python3 main.py"
 
 env:
   PYTHONUNBUFFERED: "1"
