@@ -1,6 +1,6 @@
 import os
 import sys
-
+import time
 sys.path.insert(0, os.getcwd())
 
 from ahc.Ahc import ComponentModel, Event, ConnectorTypes, Topology, EventTypes
@@ -93,8 +93,12 @@ def main():
   topo = Topology();
   topo.construct_single_node(Node, 0)
   topo.start()
-
-  while True: pass
+  cnt = 1
+  while True:
+    cnt = cnt +1 
+    time.sleep(1)
+    if cnt > 5:
+      break
 
 if __name__ == "__main__":
   main()

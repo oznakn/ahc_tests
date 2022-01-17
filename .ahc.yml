@@ -1,7 +1,12 @@
 image: cengwins/ahc-uhd-image
 command: /bin/sh -c "
-  pip install adhocomputing==0.0.3 &&
-  python3 main.py"
+  pip install adhocomputing &&
+  python3 General/testcomposition.py &&
+  python3 General/test.py &&
+  python3 General/testnx.py &&
+  python3 General/testchannels.py &&
+  python3 main.py &&
+"
 
 env:
   PYTHONUNBUFFERED: "1"
