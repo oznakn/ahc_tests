@@ -99,8 +99,14 @@ def main():
     # axes[1,0].set_title("Time Passed for execution of Gallager-Humblet-Spira algorithm")
     print(time_arr)
     print(message_arr)
-    plt.show()
+    #plt.show()
     # plt.show()  # while (True): pass
+    cnt = 1
+    while True:
+        cnt = cnt +1 
+        time.sleep(1)
+        if cnt > 10:
+            break
 
 
 if __name__ == "__main__":

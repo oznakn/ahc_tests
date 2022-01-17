@@ -1,7 +1,7 @@
 import networkx
 import matplotlib.pyplot as plt
 from PIL import Image
-
+import time
 from ahc.Ahc import Topology
 from ahc.Channels.Channels import P2PFIFOPerfectChannel
 from ahc.Routing.DSR.AdhocNodeComponent import AdhocNodeComponent
@@ -53,5 +53,10 @@ topology = Topology()
 topology.construct_from_graph(graph, AdhocNodeComponent, P2PFIFOPerfectChannel)
 
 topology.start()
+
+cnt = 1
 while True:
-    pass
+    cnt = cnt +1 
+    time.sleep(1)
+    if cnt > 5:
+        break

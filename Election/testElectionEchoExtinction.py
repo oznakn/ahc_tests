@@ -96,8 +96,14 @@ def main():
   axes[6].set_xlabel('Node Count')
   axes[5].set_title("Message Count by Node Count")
   axes[5].set_title("Time")
-  plt.show()
+  #plt.show()
   # plt.show()  # while (True): pass
+  cnt = 1
+  while True:
+    cnt = cnt +1 
+    time.sleep(1)
+    if cnt > 10:
+      break
 
 if __name__ == "__main__":
   main()

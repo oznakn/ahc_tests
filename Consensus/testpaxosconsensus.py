@@ -42,8 +42,13 @@ def main():
     time.sleep(2)
     a_node: PaxosConsensusComponentModel = topo.nodes.get('A')
     a_node.data_received_client(client, "Hello World!!!")
-    waitforit = input("hit something to exit...")
-
+    #waitforit = input("hit something to exit...")
+    cnt = 1
+    while True:
+        cnt = cnt +1 
+        time.sleep(1)
+        if cnt > 5:
+            break
 
 if __name__ == "__main__":
     main()

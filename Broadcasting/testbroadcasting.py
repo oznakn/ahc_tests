@@ -56,8 +56,8 @@ def main():
   ComponentRegistry().print_components()
 
   topo.start()
-  topo.plot()
-  plt.show()  # while (True): pass
+  #topo.plot()
+  #plt.show()  # while (True): pass
 
   print(topo.nodecolors)
 

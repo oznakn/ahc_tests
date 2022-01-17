@@ -31,7 +31,7 @@ def main():
     client = Client()
 
     topo.start()
-    time.sleep(5)
+    time.sleep(3)
     a_node: RaftConsensusComponent = topo.nodes.get('A')
     cluster = a_node.registry.get_non_channel_components()
     a_node = topo.nodes.get(cluster[0].state.leaderId)
@@ -39,8 +39,14 @@ def main():
         a_node.data_received_client(client, {'type':'append',  'data': {
                                       'key': i,
                                       'value': 'hello + '+str(i),}})
+        time.sleep(0.1)
+    #waitforit = input("hit something to exit...")
+    cnt = 1
+    while True:
+        cnt = cnt +1 
         time.sleep(1)
-    waitforit = input("hit something to exit...")
+        if cnt > 5:
+            break
 
 
 if __name__ == "__main__":
