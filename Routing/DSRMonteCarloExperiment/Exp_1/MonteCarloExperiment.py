@@ -15,8 +15,8 @@ sys.path.append('../../../..')
 
 from ahc.Ahc import Topology, ComponentRegistry
 from ahc.Channels.Channels import P2PFIFOPerfectChannel
-from ahc.Routing.DSR.MonteCarloExperiment.AdhocNodeComponent import AdhocNodeComponent
-from ahc.Routing.DSR.MonteCarloExperiment.DataCollector import DataCollector
+from Routing.DSRMonteCarloExperiment.AdhocNodeComponent import AdhocNodeComponent
+from Routing.DSRMonteCarloExperiment.DataCollector import DataCollector
 
 
 def create_connected_graph(node_number: int, prob: float):
