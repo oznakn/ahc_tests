@@ -1,9 +1,9 @@
 from copy import deepcopy
 
-from ahc.Routing.DSR.MonteCarloExperiment.ApplicationComponent import ApplicationComponent
-from ahc.Routing.DSR.MonteCarloExperiment.DSRAlgorithmComponent import DSRAlgorithmComponent
-from ahc.Routing.DSR.MonteCarloExperiment.DSRAlgorithmComponent import MessageTypes
-from ahc.Routing.DSR.MonteCarloExperiment.DataCollector import DataCollector
+from Routing.MonteCarloExperiment.ApplicationComponent import ApplicationComponent
+from Routing.MonteCarloExperiment.DSRAlgorithmComponent import DSRAlgorithmComponent
+from Routing.MonteCarloExperiment.DSRAlgorithmComponent import MessageTypes
+from Routing.MonteCarloExperiment.DataCollector import DataCollector
 
 from ahc.Ahc import ComponentModel
 from ahc.Ahc import ConnectorTypes

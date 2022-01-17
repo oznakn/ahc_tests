@@ -1,7 +1,7 @@
 import threading
 import time
 
-from Ahc import singleton
+from ahc.Ahc import singleton
 
 
 @singleton

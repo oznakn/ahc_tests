@@ -6,7 +6,7 @@ from ahc.Ahc import EventTypes
 from ahc.Ahc import Event
 from ahc.Ahc import GenericMessage
 from ahc.Ahc import GenericMessageHeader
-from ahc.Routing.DSR.MonteCarloExperiment.DataCollector import DataCollector
+from Routing.MonteCarloExperiment.DataCollector import DataCollector
 
 
 class ApplicationComponent(ComponentModel):
