@@ -27,8 +27,8 @@ def Main():
     topo.G.add_edges_from([('A', 'T'), ('A', 'B')])
 
     topo.start()
-    while True: pass
-
+    #while True: pass
+    time.sleep(10)
 
 if __name__ == "__main__":
     Main()
