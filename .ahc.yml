@@ -17,6 +17,21 @@ command: /bin/sh -c "
   python3 Routing/testDSR.py &&
   python3 main.py"
 
+experiment:
+  runs:
+    - name: run1
+      topology: sample_topology
+      sampling_rate: 1
+
+topologies:
+  - name: sample_topology
+    nodes:
+      - node1
+      - node2
+
+    links:
+      - node1:node2
+
 env:
   PYTHONUNBUFFERED: "1"
   PYTHONDONTWRITEBYTECODE: "1"
