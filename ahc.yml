@@ -18,6 +18,12 @@ command: /bin/sh -c "
   # python3 MutualExclusion/testPeterson.py &&
   # python3 Routing/testDSR.py &&
 
+experiment:
+  runs:
+    - name: run1
+      topology: sample
+      sampling_rate: 3
+
 env:
   PYTHONUNBUFFERED: "1"
   PYTHONDONTWRITEBYTECODE: "1"
